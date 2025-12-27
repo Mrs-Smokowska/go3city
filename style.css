@@ -1,0 +1,82 @@
+*{
+    font-family: "Arial Black", sans-serif
+}
+#map{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    position: fixed;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    border: none;
+    background-color: rgb(113, 211, 106);
+}
+
+
+#sidebarMenu{
+    height: 8%;
+    background-size: cover;
+    position: fixed;
+    z-index: 1;
+    top: 10px;
+    left: 10px;
+    opacity: 0.5;
+    transition: 0.2s;
+}
+
+#sidebarMenu:hover{
+    opacity: 1;
+}
+
+
+#sideNav{
+    height: 100%;
+    width: 70%;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    display: block;
+    padding: 10px;
+    transform: translateX(-100%);
+    transition: transform 0.5s ease-in-out;
+    background-color: #FFF;
+}
+
+#sideNav .closeBtn{
+    top: 0;
+    position: absolute;
+    font-size: 40px;
+    right: 30px;
+    opacity: 0.5;
+    transition: 0.2s;
+}
+
+#sideNav .closeBtn:hover{
+    opacity: 1;
+}
+
+#logo{
+    max-width: 70px;
+    width: 80%;
+}
+
+#sideNav .desc{
+    margin: 20px 60px 40px 10px;
+    font-size: 16px;
+    display: block;
+    transition: 0.3s;
+    overflow-y: auto;
+}
+
+#sideNav hr{
+    margin: 0px 10% 0px 0px;
+}
+
+#sideNav a{
+    text-decoration: none;
+    padding: 70px 0px 0px 10px;
+}

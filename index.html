@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GO3CITY</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="sideBarFunctionality.js" defer></script>
+    <script async src="./map.js"></script>
+</head>
+
+<body>
+    <div id="main" class="main">
+        <b id="sidebarMenu" class="sidebarMenu" onclick="sideNavOpen()">&#9776;</b>
+        <iframe id="map" class="map" loading="lazy">
+            <!-- Map goes here -->
+        </iframe>
+    </div>
+
+    <div id="sideNav" class="sideNav">
+        <!-- Sidebar. There are links to other socials, description and there will also be logo here someday -->
+        <b id="closeBtn" class="closeBtn" onclick="sideNavClose()">&times;</b>
+        <img id="logo" class="logo" src="https://file.garden/aDJDoFvCMj7rw5gn/logo.png" alt="logo">
+
+        <div class="desc">Cześć! Znajdujesz się na stronie testowej projektu GO3CITY! Jest tu jeszcze dość pusto, ale
+            pracuje nad tym. Do zrobienia zostało mi: API, linki do mediów i jakieś wykończenia. A i no gdzieś tą stronę
+            hostować, ale na próbe na początku zrobimy github bo jest za darmo 👍</div>
+
+        <hr>
+
+        <a target="_blank" rel="noopener noreferrer"
+            href="https://zwolnienizteorii.pl/a/#/app/project/initiation/1062877">Zwolnieni z Teorii</a>
+    </div>
+</body>
+
+</html>
