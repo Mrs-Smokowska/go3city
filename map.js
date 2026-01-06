@@ -1,4 +1,53 @@
-document.onload = getGeolocation();
+const mapContainer = document.getElementById("map");
+
+let map;
+let marker;
+
+function initMap(lat, lng) {
+    map = L.map("map", {zoomControl: false}).setView([lat, lng], 14);
+    L.control.zoom({position: "bottomleft"}).addTo(map);
+
+    L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+        maxZoom: 19,
+        attribution: "© OpenStreetMap contributors"
+    }).addTo(map);
+
+    marker = L.marker([lat, lng])
+        .addTo(map)
+        /*.bindPopup("📍 Jesteś tutaj")
+        .openPopup();*/
+
+    console.log("Mapa OSM załadowana poprawnie");
+}
+
+function geolocationError() {
+    alert("Nie udało się pobrać lokalizacji. Pokazuję domyślną.");
+    
+    // Domyślna lokalizacja – Gdynia
+    initMap(54.35598618576356, 18.644314833000145);
+}
+
+function getGeolocation() {
+    if ("geolocation" in navigator) {
+        navigator.geolocation.getCurrentPosition(
+            (position) => {
+                const lat = position.coords.latitude;
+                const lng = position.coords.longitude;
+
+                console.log(`Latitude: ${lat}, Longitude: ${lng}`);
+                initMap(lat, lng);
+            },
+            geolocationError
+        );
+    } else {
+        geolocationError();
+    }
+}
+
+document.addEventListener("DOMContentLoaded", getGeolocation);
+
+
+/*document.onload = getGeolocation();
 
 const map = document.querySelector("#map"); //Iframe where map is
 
@@ -30,4 +79,4 @@ function getGeolocation() {
     } else {
         geolocationError();
     }
-}
+}*/

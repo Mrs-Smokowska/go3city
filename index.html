@@ -6,16 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GO3CITY</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
     <script src="sideBarFunctionality.js" defer></script>
-    <script async src="./map.js"></script>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="./map.js"></script>
 </head>
 
 <body>
     <div id="main" class="main">
         <b id="sidebarMenu" class="sidebarMenu" onclick="sideNavOpen()">&#9776;</b>
-        <iframe id="map" class="map" loading="lazy">
-            <!-- Map goes here -->
-        </iframe>
+        <b id="sidebarMenuR" class="sidebarMenu" onclick="sideNavOpenR()"><i class="fa-solid fa-map-location-dot"></i></b>
+        <div id="div"></div>
+        <div id="map" class="map"><!-- MAP GOES HERE --></div>
     </div>
 
     <div id="sideNav" class="sideNav">
@@ -23,14 +26,22 @@
         <b id="closeBtn" class="closeBtn" onclick="sideNavClose()">&times;</b>
         <img id="logo" class="logo" src="https://file.garden/aDJDoFvCMj7rw5gn/logo.png" alt="logo">
 
-        <div class="desc">Cześć! Znajdujesz się na stronie testowej projektu GO3CITY! Jest tu jeszcze dość pusto, ale
-            pracuje nad tym. Do zrobienia zostało mi: API, linki do mediów i jakieś wykończenia. A i no gdzieś tą stronę
-            hostować, ale na próbe na początku zrobimy github bo jest za darmo 👍</div>
+        <div class="desc">W dobie telefonów i komputerów coraz więcej osób spędza czas w domu, zapominając o spacerach i kontakcie z naturą. Projekt GO3CITY powstał, by to zmienić. Tworzymy stronę z mapą Trójmiasta, na której zaznaczymy miejsca warte odwiedzenia – idealne na spacery i spotkania ze znajomymi. Każde miejsce będzie opisane tak, by zachęcało do aktywności i odkrywania miasta. Projekt promujemy w mediach społecznościowych, gdzie mieszkańcy mogą kontaktować się z nami i proponować nowe lokalizacje. Dzięki niemu mieszkańcy Trójmiasta i nie tylko spędzą więcej czasu na świeżym powietrzu, odkryją swoje miasto na nowo i przekonają się, że aktywność offline może być ciekawa i inspirująca.</div>
 
-        <hr>
+        <hr/>
 
-        <a target="_blank" rel="noopener noreferrer"
-            href="https://zwolnienizteorii.pl/a/#/app/project/initiation/1062877">Zwolnieni z Teorii</a>
+        <div id="links">
+            <a id="zwolnieni_z_teorii" class="social_media_link" target="_blank" rel="noopener noreferrer" href="https://zwolnienizteorii.pl/a/#/app/project/initiation/1062877">Zwolnieni z Teorii</a>
+            <a id="instagram" class="social_media_link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/go3cityy/"><i class="fa-brands fa-instagram"></i></a>
+            <a id="tiktok" class="social_media_link" target="_blank" rel="noopener noreferrer" href="https://www.tiktok.com/@go3cityy?is_from_webapp=1&sender_device=pc"><i class="fa-brands fa-tiktok"></i></a>
+        </div>
+    </div>
+    <div id="locationList" class="locationList">
+        <!-- Right sidebar. Here will be a list of locations -->
+        <b id="closeBtnR" class="closeBtn" onclick="sideNavCloseR()">&times;</b>
+        <div id="locations" class="locations">
+            <!-- HERE WILL BE LOCATIONS -->
+        </div>
     </div>
 </body>
 
