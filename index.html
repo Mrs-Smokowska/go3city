@@ -8,16 +8,18 @@
     <link rel="icon" type="image/x-icon" href="logo.png">
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <script src="sideBarFunctionality.js" defer></script>
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <script src="./map.js"></script>
+    <script src="./locations.js" defer></script>
 </head>
 
 <body>
     <div id="main" class="main">
         <b id="sidebarMenu" class="sidebarMenu" onclick="sideNavOpen()">&#9776;</b>
-        <b id="sidebarMenuR" class="sidebarMenu" onclick="sideNavOpenR()"><i class="fa-solid fa-map-location-dot"></i></b>
+        <b id="sidebarMenuR" class="sidebarMenu" onclick="sideNavOpenR()"><i
+                class="fa-solid fa-map-location-dot"></i></b>
         <div id="div"></div>
         <div id="map" class="map"><!-- MAP GOES HERE --></div>
     </div>
@@ -27,14 +29,24 @@
         <b id="closeBtn" class="closeBtn" onclick="sideNavClose()">&times;</b>
         <img id="logo" class="logo" src="https://file.garden/aDJDoFvCMj7rw5gn/logo.png" alt="logo">
 
-        <div class="desc">W dobie telefonów i komputerów coraz więcej osób spędza czas w domu, zapominając o spacerach i kontakcie z naturą. Projekt GO3CITY powstał, by to zmienić. Tworzymy stronę z mapą Trójmiasta, na której zaznaczymy miejsca warte odwiedzenia – idealne na spacery i spotkania ze znajomymi. Każde miejsce będzie opisane tak, by zachęcało do aktywności i odkrywania miasta. Projekt promujemy w mediach społecznościowych, gdzie mieszkańcy mogą kontaktować się z nami i proponować nowe lokalizacje. Dzięki niemu mieszkańcy Trójmiasta i nie tylko spędzą więcej czasu na świeżym powietrzu, odkryją swoje miasto na nowo i przekonają się, że aktywność offline może być ciekawa i inspirująca.</div>
+        <div class="desc">W dobie telefonów i komputerów coraz więcej osób spędza czas w domu, zapominając o spacerach i
+            kontakcie z naturą. Projekt GO3CITY powstał, by to zmienić. Tworzymy stronę z mapą Trójmiasta, na której
+            zaznaczymy miejsca warte odwiedzenia – idealne na spacery i spotkania ze znajomymi. Każde miejsce będzie
+            opisane tak, by zachęcało do aktywności i odkrywania miasta. Projekt promujemy w mediach społecznościowych,
+            gdzie mieszkańcy mogą kontaktować się z nami i proponować nowe lokalizacje. Dzięki niemu mieszkańcy
+            Trójmiasta i nie tylko spędzą więcej czasu na świeżym powietrzu, odkryją swoje miasto na nowo i przekonają
+            się, że aktywność offline może być ciekawa i inspirująca.</div>
 
-        <hr/>
+        <hr />
 
         <div id="links">
-            <a id="zwolnieni_z_teorii" class="social_media_link" target="_blank" rel="noopener noreferrer" href="https://zwolnienizteorii.pl/a/#/app/project/initiation/1062877">Zwolnieni z Teorii</a>
-            <a id="instagram" class="social_media_link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/go3cityy/"><i class="fa-brands fa-instagram"></i></a>
-            <a id="tiktok" class="social_media_link" target="_blank" rel="noopener noreferrer" href="https://www.tiktok.com/@go3cityy?is_from_webapp=1&sender_device=pc"><i class="fa-brands fa-tiktok"></i></a>
+            <a id="zwolnieni_z_teorii" class="social_media_link" target="_blank" rel="noopener noreferrer"
+                href="https://zwolnienizteorii.pl/a/#/app/project/initiation/1062877">Zwolnieni z Teorii</a>
+            <a id="instagram" class="social_media_link" target="_blank" rel="noopener noreferrer"
+                href="https://www.instagram.com/go3cityy/"><i class="fa-brands fa-instagram"></i></a>
+            <a id="tiktok" class="social_media_link" target="_blank" rel="noopener noreferrer"
+                href="https://www.tiktok.com/@go3cityy?is_from_webapp=1&sender_device=pc"><i
+                    class="fa-brands fa-tiktok"></i></a>
         </div>
     </div>
     <div id="locationList" class="locationList">
@@ -42,6 +54,24 @@
         <b id="closeBtnR" class="closeBtn" onclick="sideNavCloseR()">&times;</b>
         <div id="locations" class="locations">
             <!-- HERE WILL BE LOCATIONS -->
+            <!--<div class="locationBlocks">
+                <h3>NAZWA TESTOWEJ LOKACJI</h3>
+                <p class="locationDesc">
+                    AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+                </p>
+                <p>Link</p>
+            </div>
+            <div class="locationBlocks" onclick='moveLocation(54.54309263336984, 18.46075654132395, "Wymiennikownia", "https://maps.app.goo.gl/LY31RFqupmQs13yo9")'>
+                <h3 class="locationName">Wymiennikownia - Młodzieżowe Centrum Innowacji Społecznych i Designu</h3>
+                <p class="locationDesc">Wymiennikownia to przestrzeń w której młodzi ludzie (ok 13-35 lat) mogą spotykać
+                    się, rozwijać pasje i chodzić na różne zajęcia, a to wszystko za DARMO, na luzie w miłej atmosferze,
+                    bez ocen i zbędnych ograniczeń. W ofercie Wymiennikowni są m.in zajęcia taneczne (K-pop, Breakdance,
+                    Dancehall), sportowe, z rysunku, z języków, warsztaty kreatywne, wspólne granie w gry oraz relaks.
+                </p>
+                <p class="locationLink"><a class="locationWebsite" target="_blank"
+                        href="https://wymiennikownia.org/">wymiennikownia.org</a>
+                </p>
+            </div>-->
         </div>
     </div>
 </body>

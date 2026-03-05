@@ -23,7 +23,7 @@ function initMap(lat, lng) {
 function geolocationError() {
     alert("Nie udało się pobrać lokalizacji. Pokazuję domyślną.");
     
-    // Domyślna lokalizacja – Gdynia
+    // Default Location
     initMap(54.35598618576356, 18.644314833000145);
 }
 
@@ -46,6 +46,10 @@ function getGeolocation() {
 
 document.addEventListener("DOMContentLoaded", getGeolocation);
 
+
+
+
+// OLD ATTEMPT AT GEOLOCATION AND GEOFUNCTIONALITY OF THIS SITE
 
 /*document.onload = getGeolocation();
 

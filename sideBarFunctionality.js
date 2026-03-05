@@ -3,7 +3,12 @@ let right = 1; //right sidebar status
 
 window.addEventListener("load", () => {
     document.querySelector("#locationList").style.transform = "translateX(0)";
-    document.querySelector("#map").style.transform = "translateX(-15%)";
+    if(window.innerWidth <= 800){
+        document.querySelector("#map").style.transform = "translateX(-30%)";
+    }
+    else{
+        document.querySelector("#map").style.transform = "translateX(-15%)";
+    }
     right = 1;
 });
 
@@ -23,7 +28,12 @@ function sideNavOpenR() {
         left = 0;
     }
     document.querySelector("#locationList").style.transform = "translateX(0)";
-    document.querySelector("#map").style.transform = "translateX(-15%)";
+    if(window.innerWidth <= 800){
+        document.querySelector("#map").style.transform = "translateX(-30%)";
+    }
+    else{
+        document.querySelector("#map").style.transform = "translateX(-15%)";
+    }
     right = 1;
 }
 

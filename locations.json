@@ -2,8 +2,89 @@
     {
         "id": 1,
         "name": "Wymiennikownia - Młodzieżowe Centrum Innowacji Społecznych i Designu",
-        "description": "",
-        "lat": 54.54311627799478, 
-        "lng": 18.460787054244772
+        "shortName": "Wymiennikownia",
+        "description": "Wymiennikownia to przestrzeń w której młodzi ludzie (ok 13-35 lat) mogą spotykać się, rozwijać pasje i chodzić na różne zajęcia, a to wszystko za DARMO, na luzie w miłej atmosferze, bez ocen i zbędnych ograniczeń. W ofercie Wymiennikowni są m.in zajęcia taneczne (K-pop, Breakdance, Dancehall), sportowe, z rysunku, z języków, warsztaty kreatywne, wspólne granie w gry oraz relaks.",
+        "link": "https://wymiennikownia.org/",
+        "linkText": "wymiennikownia.org",
+        "lat": 54.54309263336984,
+        "lng": 18.46075654132395,
+        "mapsLink": "https://maps.app.goo.gl/LY31RFqupmQs13yo9"
+    },
+    {
+        "id": 2,
+        "name": "SPOT Riviera",
+        "shortName": "SPOT Riviera",
+        "description": "Spot Riviera jest bezpieczną przestrzenią z open space dedykowaną dla osób 11-18 lat, w której można odpoczywać, grać w gry, oglądać filmy, przyjść na poradę psychologiczną, albo po prostu na rozmowę przy herbatce. A to wszystko w miłej atmosferze wolontariuszy na miejscu, którzy starają się umilić nam, młodzieży, czas. Jeśli jesteś w okolicy to wpadnij sam/sama lub ze znajomymi i przekonaj się jakich fajnych ludzi można tam spotkać",
+        "link": "https://centrumriviera.pl/sklep/spot/",
+        "linkText": "SPOT Riviera",
+        "lat": 54.50472499119682, 
+        "lng": 18.531988817110918,
+        "mapsLink": "https://maps.app.goo.gl/ZRYkDM69b6DW5toF7"
+    },
+    {
+        "id": 3,
+        "name": "Svera",
+        "shortName": "Svera",
+        "description": "Svera - nowoczesny, innowacyjny klub nocny, skierowany do grupy wiekowej 16+. Kolejny wieczór a ty znowu spędzasz go z Netfliksem i Tik Tokiem? Jeżeli chcesz wyjść na miasto i bawić się do dobrej muzyki to SVERA jest właśnie dla ciebie. Grali tam m. in Malik Montanna, Paluch, Maciej Maleńczuk, Hubert i wiele więcej. Są tam organizowane koncerty, festiwale i różne tematyczne noce takie jak “techno yoga”, imprezy na halloween, imprezy drum’n bass i inne. To świetne miejsce do poznawania nowych ludzi, tańca i zabawy.",
+        "link": "https://www.instagram.com/svera.art",
+        "linkText": "ig: svera.art",
+        "lat": 54.52241863716155, 
+        "lng": 18.528615799827392,
+        "mapsLink": "https://maps.app.goo.gl/AJrY9HUE1o7Zh6FX6"
+    },
+    {
+        "id": 4,
+        "name": "Triblok",
+        "shortName": "Triblok",
+        "description": "Triblok to miejsce, gdzie adrenalina spotyka dobrą zabawę. Nowoczesna ścianka wspinaczkowa oferuje różnorodne trasy, które pozwalają sprawdzić swoje możliwości, przełamać bariery i poczuć prawdziwą satysfakcję z każdego zdobytego chwytu. To świetna alternatywa dla siłowni i idealny sposób na aktywne spędzenie czasu z ekipą — bez nudy, za to z energią i wyzwaniem. Jeśli chcesz spróbować czegoś nowego i naprawdę się wkręcić, Triblok to strzał w dziesiątkę.",
+        "link": "https://triblok.pl/",
+        "linkText": "triblok.pl",
+        "lat": 54.50772665508128, 
+        "lng": 18.541587244079594,
+        "mapsLink": "https://maps.app.goo.gl/pNABeg5CMVurGa397"
+    },
+    {
+        "id": 5,
+        "name": "Centrum U7",
+        "shortName": "U7",
+        "description": "Szukasz miejsca, gdzie można fajnie spędzić czas z przyjaciółmi? Centrum U7 to nowoczesne centrum rozrywki, w którym czekają profesjonalne tory do kręgli oraz bilard – idealne zarówno na luźną zabawę, jak i małą rywalizację w grupie. To świetna opcja na wspólne wyjście po szkole lub w weekend. Dodatkowym plusem są atrakcyjne oferty i promocje, dzięki którym dobra zabawa jest dostępna w przystępnej cenie. Na co czekasz? pisz do znajomych i widzimy się na miejscu.",
+        "link": "https://www.u7.pl/",
+        "linkText": "u7.pl",
+        "lat": 54.5076550655129, 
+        "lng": 18.53793382142101,
+        "mapsLink": "https://maps.app.goo.gl/RyaYPwFL7ba8zUiw5"
+    },
+    {
+        "id": 6,
+        "name": "Football Thrift Shop Gdynia",
+        "shortName": "FTS",
+        "description": "FTS Gdynia to miejsce stworzone dla prawdziwych fanów piłki nożnej. W sklepie znajdziesz wyjątkowe koszulki piłkarskie – od kultowych klasyków i retro, po modele inspirowane największymi klubami i legendami futbolu. To idealna opcja dla tych, którzy chcą się wyróżnić, pokazać swoją pasję i nosić coś więcej niż zwykły T-shirt. Jeśli piłka nożna to Twój styl życia, w FTS Gdynia na pewno znajdziesz coś dla siebie ⚽👕",
+        "link": "http://www.footballthrift.shop/",
+        "linkText": "footballthrift.shop",
+        "lat": 54.519706218159314, 
+        "lng": 18.53488047107933,
+        "mapsLink": "https://maps.app.goo.gl/ZuuSoV3m2y3CznN57"
+    },
+    {
+        "id": 7,
+        "name": "Park Centralny",
+        "shortName": "Park Centralny",
+        "description": "Park Centralny to nowoczesny park miejski w samym centrum Gdyni, zaprojektowany jako zielona oaza do wypoczynku, rekreacji i spotkań. Znajdziesz tu skatepark, plac zabaw, siłownię, leżaki i wiele ścieżek więc można spędzić tutaj czas aktywnie i nic nie płacąc.  To miejsce łączy naturę oraz nowoczesna infrastrukturę, poza tym jest blisko stacji skm, Centrum Handlowego Riviera, plaży miejskiej i innych lokalizacji. Świetnym pomysłem jest przyjście nawet na 15 minut aby dotlenić umysł w ciągu dnia i pozbierać myśli.",
+        "link": "",
+        "linkText": "",
+        "lat": 54.508634092294315, 
+        "lng": 18.5402168980469,
+        "mapsLink": "https://maps.app.goo.gl/BffvwaUPN5CDCkos5"
+    },
+    {
+        "id": 8,
+        "name": "Kamienna Góra",
+        "shortName": "Kamienna Góra",
+        "description": "Kamienna góra to Jedno z najpiękniejszych punktów widokowych w Gdyni o każdej porze. Widać z niej panoramę Gdyni i takie dzielnice jak Śródmieście, Działki Leśne, Grabówek oraz oczywiście morze i marinę. Można wejść na nią na pieszo lub pojechać darmową kolejką. To świetne miejsce na zaplanowanie spotkania ze znajomymi np. pikniku, oglądania zachodu/wschodu słońca, pełni księżyca, gry w karty, treningu cardio, spaceru z psem, przechadzki po pięknych alejkach. Okazjonalnie są tam też organizowane darmowe koncerty. To miejsce gdzie możesz uciec od miejskiego zgiełku pozostając blisko centrum.",
+        "link": "",
+        "linkText": "",
+        "lat": 54.51548727312374, 
+        "lng": 18.54401327667991,
+        "mapsLink": "https://maps.app.goo.gl/XdsfPERPLb8ynrvL9"
     }
 ]

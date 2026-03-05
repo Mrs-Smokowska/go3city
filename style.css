@@ -1,5 +1,5 @@
 *{
-    font-family: "Arial Black", sans-serif
+    font-family: "Arial Black", sans-serif !important;
 }
 #map{
     height: 100%;
@@ -24,6 +24,7 @@
     opacity: 0.5;
     transition: 0.2s;
     cursor: default;
+    font-size: x-large;
 }
 
 #sidebarMenu:hover{
@@ -140,6 +141,7 @@
     opacity: 0.5;
     transition: 0.2s;
     cursor: default;
+    font-size: x-large;
 }
 
 #sidebarMenuR:hover{
@@ -192,4 +194,52 @@
 
 #closeBtnR:hover{
     opacity: 1;
+}
+
+#locations{
+    overflow-y: auto;
+    padding-bottom: 20px;
+}
+.locationBlocks{
+    width: 90%;
+    margin: 50px auto auto auto;
+    transition: 0.2s;
+    cursor: default;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.locationBlocks:hover{
+    background-color: #dcdcdc;
+}
+
+.locationName{
+    width: 90%;
+    overflow-wrap: break-word;
+}
+
+@media screen and (min-width: 800px){
+    .locationDesc{
+        overflow-wrap: break-word;
+        overflow-y: hidden;
+        font-size: small;
+        max-height: 100px;
+        overflow-y: auto;
+        color: #636363;
+    }   
+}
+
+@media screen and (max-width: 800px){
+    .locationDesc{
+        overflow-wrap: break-word;
+        overflow-y: hidden;
+        font-size:smaller;
+        max-height: 100px;
+        overflow-y: auto;
+        color: #636363;
+    }  
+}
+
+#locations a{
+    color: #428F8C;
 }
