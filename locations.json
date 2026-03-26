@@ -86,5 +86,93 @@
         "lat": 54.51548727312374, 
         "lng": 18.54401327667991,
         "mapsLink": "https://maps.app.goo.gl/XdsfPERPLb8ynrvL9"
+    },
+    {
+        "id": 9,
+        "name": "Molo w Orłowie",
+        "shortName": "Molo w Orłowie",
+        "description": "Molo w Orłowie to świetne miejsce dla każdego, kto chce na chwilę zwolnić i pobyć nad morzem bez typowo turystycznego zgiełku. Sprawdza się zarówno na spokojny spacer we dwoje, jak i na luźne spotkanie ze znajomymi, kiedy można przejść się wzdłuż wody, usiąść, pogadać i nacieszyć się widokiem. Drewniany pomost wychodzi w głąb zatoki, dzięki czemu z każdej strony widać morze, a w tle charakterystyczny klif i linię brzegową, co robi wrażenie o każdej porze roku. To dobre miejsce dla osób, które lubią naturę, fotografię albo po prostu potrzebują chwili świeżego powietrza. W pobliżu jest plaża, promenada i kilka klimatycznych lokali, więc spacer łatwo może zamienić się w dłuższe wyjście. Nie chodzi tu o wielką atrakcję, tylko o atmosferę – spokojną, nadmorską i autentyczną, do której chce się wracać.",
+        "link": "",
+        "linkText": "",
+        "lat": 54.4800808722102,
+        "lng": 18.565385583648254,
+        "mapsLink": "https://maps.app.goo.gl/EGiUE5Dcf8QMQ1KD9"
+    },
+    {
+        "id": 10,
+        "name": "Klif w Orlowie",
+        "shortName": "Klif w Orlowie",
+        "description": "Klif Orłowski to jedno z najbardziej charakterystycznych miejsc na polskim wybrzeżu i zdecydowanie coś więcej niż zwykły punkt widokowy. To naturalne, wysokie urwisko opadające prosto do morza, które robi wrażenie o każdej porze roku – latem zachwyca zielenią i jasnym piaskiem u podnóża, jesienią i zimą pokazuje surową, bardziej dziką stronę Bałtyku. To idealne miejsce dla osób, które lubią spacery w naturze, fotografowanie krajobrazów albo po prostu chcą na chwilę uciec od miasta i popatrzeć na otwartą przestrzeń. Widok z góry na zatokę i linię brzegową jest naprawdę konkretny, zwłaszcza przy zachodzie słońca, kiedy światło odbija się od wody. Warto jednak pamiętać, że klif jest tworem naturalnym i stopniowo się osuwa, dlatego trzeba zachować ostrożność i nie podchodzić zbyt blisko krawędzi. To miejsce ma w sobie coś surowego i autentycznego – nie jest wygładzone ani „pod turystę”, i właśnie dlatego robi takie wrażenie.",
+        "link": "",
+        "linkText": "",
+        "lat": 54.48549858486762,
+        "lng": 18.568719395291282,
+        "mapsLink": "https://maps.app.goo.gl/TcwDCCroMFQNdkbo6"
+    },
+    {
+        "id": 11,
+        "name": "Molo Sopot",
+        "shortName": "Molo Sopot",
+        "description": "Molo w Sopocie to miejsce, w którym naprawdę da się spędzić więcej czasu niż tylko kilka minut na przejście się w jedną i drugą stronę. Można tu usiąść i obejrzeć zachód słońca nad Zatoką Gdańską, obserwować statki, żaglówki i motorówki wpływające do mariny, robić zdjęcia panoramy Trójmiasta albo po prostu stanąć na końcu pomostu i poczuć wiatr od morza. W sezonie często cumują tu jachty, więc dla fanów żeglarstwa to też ciekawy punkt do podpatrywania jednostek z bliska. Można spotkać się ze znajomymi, przejść się wzdłuż całej długości mola, a potem zejść na plażę albo przejść na Skwer Kuracyjny, gdzie latem odbywają się różne wydarzenia i koncerty. W okolicy są restauracje, lodziarnie i kawiarnie, więc łatwo połączyć spacer z jedzeniem czy kawą z widokiem na morze. Poza sezonem jest spokojniej, co sprzyja dłuższemu przebywaniu na świeżym powietrzu, a zimą widok wzburzonego morza potrafi zrobić większe wrażenie niż letni tłum. To dobre miejsce zarówno na aktywne przejście kilku kilometrów, jak i na zwykłe zatrzymanie się i poobserwowanie tego, co dzieje się na wodzie i wokół niej.",
+        "link": "https://mosirsopot.pl/obiekt/molo-w-sopocie/",
+        "linkText": "molo.sopot.pl",
+        "lat": 54.44659846933609,
+        "lng": 18.572101989939185,
+        "mapsLink": "https://maps.app.goo.gl/RoSh7zZM9E7BH33w8"
+    },
+    {
+        "id": 12,
+        "name": "Ulica Bohaterów Monte Cassino",
+        "shortName": "Monciak",
+        "description": "Ulica Bohaterów Monte Cassino, czyli popularny Monciak, to najbardziej znany deptak w Sopocie i miejsce, w którym praktycznie zawsze coś się dzieje. To przestrzeń dla osób, które lubią miejski klimat, ruch, muzykę uliczną i możliwość spontanicznego zatrzymania się w ciekawym miejscu. Można tu przejść się wśród kamienic i restauracji, wpaść na kawę, lody albo obiad, posłuchać ulicznych artystów, zajrzeć do sklepów z pamiątkami czy zrobić zdjęcie przy charakterystycznym Krzywym Domku. Wieczorem ulica nabiera jeszcze więcej energii – otwierają się kluby, bary i ogródki, a spotkanie ze znajomymi łatwo może przerodzić się w dłuższe wyjście. Monciak to dobre miejsce na rozpoczęcie dnia przed spacerem na molo albo zakończenie pobytu nad morzem, bo wszystko jest tu blisko i w jednym miejscu – plaża, molo, restauracje i rozrywka. To centrum życia Sopotu, gdzie trudno się nudzić, niezależnie od pory roku.",
+        "link": "",
+        "linkText": "",
+        "lat": 54.44362028886646,
+        "lng": 18.56451129528831,
+        "mapsLink": "https://maps.app.goo.gl/rFZvu3UL2zxxQi2S8"
+    },
+    {
+        "id": 13,
+        "name": "Świętojańska",
+        "shortName": "ul. Świętojańska",
+        "description": "Ulica Świętojańska to główna ulica handlowa Gdyni i jedno z tych miejsc, gdzie najlepiej czuć rytm miasta. To przestrzeń dla osób, które lubią miejski klimat, zakupy, kawiarnie i spontaniczne spotkania ze znajomymi. Można tu przejść się wzdłuż kamienic, zajrzeć do butików, księgarni i sklepów znanych marek, wpaść na kawę, śniadanie albo szybki lunch. W okolicy nie brakuje restauracji z kuchnią z różnych stron świata, lodziarni i miejsc, w których można po prostu usiąść i poobserwować ludzi. Ulica łączy centrum z nadmorskimi terenami, więc często jest przystankiem w drodze na Skwer Kościuszki czy bulwar. To dobre miejsce na codzienne sprawy, ale też na luźne wyjście – bez planu, za to z dużym wyborem możliwości, bo praktycznie wszystko jest tu pod ręką.",
+        "link": "",
+        "linkText": "",
+        "lat": 54.51492123256298,
+        "lng": 18.54048973270794,
+        "mapsLink": "https://maps.app.goo.gl/m3gRKPrDmatQmuES9"
+    },
+    {
+        "id": 14,
+        "name": "Skwer Kościuszki",
+        "shortName": "Skwer Kościuszki",
+        "description": "Skwer Kościuszki to jedno z najbardziej rozpoznawalnych miejsc w Gdyni i naturalne centrum spacerowe miasta, położone tuż przy porcie i marinie. To przestrzeń otwarta dla każdego – można tu przejść się szeroką aleją w stronę morza, usiąść na ławce i poobserwować cumujące jachty oraz statki, zrobić zdjęcia z widokiem na wodę albo po prostu spędzić czas na świeżym powietrzu. W pobliżu stoją historyczne jednostki, takie jak ORP Błyskawica i Dar Pomorza, które można zwiedzać, a latem często odbywają się tu wydarzenia plenerowe, koncerty i różnego rodzaju imprezy miejskie. To dobre miejsce na spotkanie ze znajomymi, krótki przystanek w drodze na plażę lub dłuższy spacer w stronę bulwaru nadmorskiego. Skwer łączy w sobie morski klimat, przestrzeń i miejski ruch, dlatego sprawdza się zarówno na aktywne popołudnie, jak i spokojne posiedzenie z widokiem na port.",
+        "link": "",
+        "linkText": "",
+        "lat": 54.51985303936875,
+        "lng": 18.54422332558963,
+        "mapsLink": "https://maps.app.goo.gl/rXWvv894sc583B7g6"
+    },
+    {
+        "id": 15,
+        "name": "Polanka Redłowska",
+        "shortName": "Polanka Redłowska",
+        "description": "Polanka Redłowska to duża, zielona przestrzeń położona między lasem a morzem, która daje zupełnie inny klimat niż typowe nadmorskie deptaki. To miejsce dobre dla osób, które chcą odpocząć na trawie, zrobić piknik ze znajomymi, pograć w siatkówkę albo po prostu poleżeć i złapać trochę słońca z widokiem na Zatokę Gdańską. Można stąd zejść ścieżką w stronę plaży albo przejść się w stronę rezerwatu Kępa Redłowska, jeśli ktoś ma ochotę na dłuższy spacer wśród drzew. Latem odbywają się tu plenerowe wydarzenia i koncerty, a poza sezonem to spokojne miejsce na trening, spacer z psem czy chwilę ciszy z dala od centrum. Polanka daje poczucie przestrzeni i luzu – nie ma tu ciasnej zabudowy ani miejskiego hałasu, jest za to zieleń, otwarte niebo i morze w zasięgu kilku minut.",
+        "link": "",
+        "linkText": "",
+        "lat": 54.50176175291888,
+        "lng": 18.556986712485358,
+        "mapsLink": "https://maps.app.goo.gl/9MM42RXGDFpEFWd36"
+    },
+    {
+        "id": 16,
+        "name": "Stare miasto Gdańsk",
+        "shortName": "Stare miasto Gdańsk",
+        "description": "Stare Miasto w Gdańsku to serce Gdańska, które przyciąga każdego, kto lubi spacery wśród zabytków, klimatyczne uliczki i miejską atmosferę pełną życia. Można tu przechadzać się wzdłuż Długiego Targu i Długiej ulicy, podziwiać kamienice, rzeźbione fasady i kolorowe budynki, zatrzymać się przy fontannie Neptuna czy wejść do kościoła Mariackiego. W okolicy działają liczne kawiarnie, restauracje i lodziarnie, a w sezonie często odbywają się tu jarmarki i wydarzenia kulturalne. Spacerując po Starym Mieście, można robić zdjęcia, zaglądać do małych sklepików z pamiątkami albo po prostu obserwować życie miasta – artystów ulicznych, muzyków i przechodniów. To dobre miejsce na spotkanie ze znajomymi, krótki postój w drodze na Motławę albo dłuższą wycieczkę, która pozwala poczuć historię i charakter Gdańska w jednym miejscu.",
+        "link": "",
+        "linkText": "",
+        "lat": 54.34924456322819,
+        "lng": 18.65027430258299,
+        "mapsLink": "https://maps.app.goo.gl/d3f2k99BCgwt2Yq9A"
     }
 ]
