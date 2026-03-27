@@ -1,7 +1,8 @@
-*{
+* {
     font-family: "Arial Black", sans-serif;
 }
-#map{
+
+#map {
     height: 100%;
     width: 100%;
     overflow: hidden;
@@ -14,8 +15,8 @@
     transition: transform 0.5s ease-in-out;
 }
 
-#sidebarMenu{
-    height: 8%;
+#sidebarMenu {
+    height: 5%;
     background-size: cover;
     position: fixed;
     z-index: 1;
@@ -25,13 +26,15 @@
     transition: 0.2s;
     cursor: default;
     font-size: x-large;
+    background-color: white;
+    padding: 5px 10px 5px 10px;
 }
 
-#sidebarMenu:hover{
+#sidebarMenu:hover {
     opacity: 1;
 }
 
-#sideNav{
+#sideNav {
     height: 100%;
     width: 70%;
     position: fixed;
@@ -47,7 +50,7 @@
     background-color: #FFF;
 }
 
-#sideNav .closeBtn{
+#sideNav .closeBtn {
     top: 0;
     position: absolute;
     font-size: 40px;
@@ -57,16 +60,16 @@
     cursor: default;
 }
 
-#sideNav .closeBtn:hover{
+#sideNav .closeBtn:hover {
     opacity: 1;
 }
 
-#logo{
+#logo {
     max-width: 70px;
     width: 80%;
 }
 
-#sideNav .desc{
+#sideNav .desc {
     margin: 20px 60px 20px 10px;
     font-size: 14px;
     display: block;
@@ -75,7 +78,7 @@
     color: #636363;
 }
 
-#sideNav hr{
+#sideNav hr {
     display: block;
     height: 1px;
     border: 0;
@@ -83,56 +86,70 @@
     margin: 0px 80px 0px 0px;
 }
 
-@media screen and (min-width: 650px){
-    #links{
+@media screen and (min-width: 650px) {
+    #links {
         display: grid;
         width: 400px;
         grid-template-columns: 50% 25% 25%;
-        grid-template-areas: 
+        grid-template-areas:
             "zwolnieni_z_teorii instagram tiktok";
     }
-    .social_media_link{
+
+    .social_media_link {
         text-align: center;
         margin: auto;
     }
 }
 
-@media screen and (max-width: 650px){
-    #links{
+@media screen and (max-width: 650px) {
+    #links {
         display: grid;
-        grid-template-areas: 
-            "zwolnieni_z_teorii" 
-            "instagram"
-            "tiktok";
+        grid-template-columns: 50% 50%;
+        grid-template-rows: auto auto;
+        grid-template-areas:
+            "zwolnieni_z_teorii zwolnieni_z_teorii"
+            "instagram tiktok";
         width: 200px;
     }
-    .social_media_link{
+
+    .social_media_link {
         text-align: left;
-        margin: 10px 0px 10px 0px;
+    }
+
+    #zwolnieni_z_teorii {
+        margin-bottom: 5px;
+    }
+
+    #instagram {
+        margin-bottom: 5px;
+    }
+
+    #tiktok {
+        margin-bottom: 5px;
     }
 }
 
-#zwolnieni_z_teorii{
+#zwolnieni_z_teorii {
     text-decoration: none;
     grid-area: zwolnieni_z_teorii;
     color: #428F8C;
     font-size: 16px;
 }
 
-#instagram{
+#instagram {
     grid-area: instagram;
     color: #428F8C;
     font-size: 30px;
 }
 
-#tiktok{
+#tiktok {
     grid-area: tiktok;
     color: #428F8C;
     font-size: 25px;
 }
 
-#sidebarMenuR{
-    height: 8%;
+#sidebarMenuR {
+    height: 5%;
     background-size: cover;
     position: fixed;
     z-index: 1;
@@ -142,14 +159,16 @@
     transition: 0.2s;
     cursor: default;
     font-size: x-large;
+    background-color: white;
+    padding: 5px 10px 5px 10px;
 }
 
-#sidebarMenuR:hover{
+#sidebarMenuR:hover {
     opacity: 1;
 }
 
-@media screen and (min-width: 800px){
-    #locationList{
+@media screen and (min-width: 800px) {
+    #locationList {
         height: 100%;
         width: 30%;
         position: fixed;
@@ -165,8 +184,8 @@
     }
 }
 
-@media screen and (max-width: 800px){
-    #locationList{
+@media screen and (max-width: 800px) {
+    #locationList {
         height: 100%;
         width: 50%;
         position: fixed;
@@ -182,7 +201,7 @@
     }
 }
 
-#closeBtnR{
+#closeBtnR {
     top: 0;
     position: absolute;
     font-size: 40px;
@@ -192,15 +211,16 @@
     cursor: default;
 }
 
-#closeBtnR:hover{
+#closeBtnR:hover {
     opacity: 1;
 }
 
-#locations{
+#locations {
     overflow-y: auto;
     padding-bottom: 20px;
 }
-.locationBlocks{
+
+.locationBlocks {
     width: 90%;
     margin: 50px auto auto auto;
     transition: 0.2s;
@@ -209,37 +229,45 @@
     padding-right: 10px;
 }
 
-.locationBlocks:hover{
+.locationBlocks:hover {
     background-color: #dcdcdc;
 }
 
-.locationName{
+.locationName {
     width: 90%;
     overflow-wrap: break-word;
 }
 
-@media screen and (min-width: 800px){
-    .locationDesc{
+@media screen and (min-width: 800px) {
+    .locationDesc {
         overflow-wrap: break-word;
         overflow-y: hidden;
         font-size: small;
         max-height: 100px;
         overflow-y: auto;
         color: #636363;
-    }   
+    }
 }
 
-@media screen and (max-width: 800px){
-    .locationDesc{
+@media screen and (max-width: 800px) {
+    .locationDesc {
         overflow-wrap: break-word;
         overflow-y: hidden;
-        font-size:smaller;
+        font-size: smaller;
         max-height: 100px;
         overflow-y: auto;
         color: #636363;
-    }  
+    }
 }
 
-#locations a{
+#locations a {
+    color: #428F8C;
+}
+
+ul {
+    margin: 0%;
+}
+
+ul a {
     color: #428F8C;
 }

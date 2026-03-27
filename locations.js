@@ -13,7 +13,7 @@ function initLocations() {
                 if (location.link != "") {
                     block.innerHTML = `
                         <div class="locationBlocks" onclick='moveLocation(${location.lat}, ${location.lng}, "${location.shortName}", "${location.mapsLink}")'>
-                            <h3 class="locationName">${location.name}</h3>
+                            <h3 class="locationName" style="color: #BC6B38">${location.name}</h3>
                             <p class="locationDesc">
                                 ${location.description}
                             </p>
@@ -26,7 +26,7 @@ function initLocations() {
                 else {
                     block.innerHTML = `
                         <div class="locationBlocks" onclick='moveLocation(${location.lat}, ${location.lng}, "${location.shortName}", "${location.mapsLink}")'>
-                            <h3 class="locationName">${location.name}</h3>
+                            <h3 class="locationName" style="color: #BC6B38">${location.name}</h3>
                             <p class="locationDesc">
                                 ${location.description}
                             </p>

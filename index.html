@@ -27,19 +27,8 @@
     <div id="sideNav" class="sideNav">
         <!-- Sidebar. There are links to other socials, description and there will also be logo here someday -->
         <b id="closeBtn" class="closeBtn" onclick="sideNavClose()">&times;</b>
+
         <img id="logo" class="logo" src="https://file.garden/aDJDoFvCMj7rw5gn/logo.png" alt="logo">
-
-        <div class="desc">W dobie telefonów i komputerów coraz więcej osób spędza czas w domu, zapominając o spacerach i
-            kontakcie z naturą. Projekt GO3CITY powstał, by to zmienić. Tworzymy stronę z mapą Trójmiasta, na której
-            zaznaczymy miejsca warte odwiedzenia – idealne na spacery i spotkania ze znajomymi. Każde miejsce będzie
-            opisane tak, by zachęcało do aktywności i odkrywania miasta. Projekt promujemy w mediach społecznościowych,
-            gdzie mieszkańcy mogą kontaktować się z nami i proponować nowe lokalizacje. Dzięki niemu mieszkańcy
-            Trójmiasta i nie tylko spędzą więcej czasu na świeżym powietrzu, odkryją swoje miasto na nowo i przekonają
-            się, że aktywność offline może być ciekawa i inspirująca.</div>
-
-        <div id="counterVisits"></div>
-
-        <hr />
 
         <div id="links">
             <a id="zwolnieni_z_teorii" class="social_media_link" target="_blank" rel="noopener noreferrer"
@@ -50,6 +39,40 @@
                 href="https://www.tiktok.com/@go3cityy?is_from_webapp=1&sender_device=pc"><i
                     class="fa-brands fa-tiktok"></i></a>
         </div>
+
+        <hr />
+
+        <div class="desc">W dobie telefonów i komputerów coraz więcej osób spędza czas w domu, zapominając o spacerach i
+            kontakcie z naturą. Projekt GO3CITY powstał, by to zmienić. Tworzymy stronę z mapą Trójmiasta, na której
+            zaznaczymy miejsca warte odwiedzenia – idealne na spacery i spotkania ze znajomymi. Każde miejsce będzie
+            opisane tak, by zachęcało do aktywności i odkrywania miasta. Projekt promujemy w mediach społecznościowych,
+            gdzie mieszkańcy mogą kontaktować się z nami i proponować nowe lokalizacje. Dzięki niemu mieszkańcy
+            Trójmiasta i nie tylko spędzą więcej czasu na świeżym powietrzu, odkryją swoje miasto na nowo i przekonają
+            się, że aktywność offline może być ciekawa i inspirująca.</div>
+
+        <hr />
+
+        <div class="desc">
+            <ul>
+                <li>Dane mapy © <a href="https://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap contributors</a></li>
+                <li>Ikony od <a href="https://fontawesome.com" target="_blank">Font Awesome</a></li>
+            </ul>
+        </div>
+
+        <script>
+            async function trackVisitor() {
+                await fetch("https://go3city-backend.vercel.app/api/visitors", {
+                    credentials: "include"
+                });
+
+                const res = await fetch("https://go3city-backend.vercel.app/api/counter");
+                const data = await res.json();
+
+                document.getElementById("visitor-count").innerText = data.count;
+            }
+
+            trackVisitor();
+        </script>
     </div>
     <div id="locationList" class="locationList">
         <!-- Right sidebar. Here will be a list of locations -->
