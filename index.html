@@ -61,11 +61,11 @@
 
         <script>
             async function trackVisitor() {
-                await fetch("https://go3city-backend.vercel.app/api/visitors", {
+                await fetch("https://go3city.site/api/visitors", {
                     credentials: "include"
                 });
 
-                const res = await fetch("https://go3city-backend.vercel.app/api/counter");
+                const res = await fetch("https://go3city.site/api/counter");
                 const data = await res.json();
 
                 document.getElementById("visitor-count").innerText = data.count;
